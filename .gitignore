@@ -1,0 +1,19 @@
+# Node
+node_modules/
+dist/
+.env
+*.log
+
+# Next.js
+.next/
+out/
+
+# VSCode / IDE
+.vscode/
+*.swp
+*.swo
+.idea/
+.DS_Store
+
+# TypeScript
+*.tsbuildinfo
