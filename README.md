@@ -11,7 +11,13 @@ Build a simple e-commerce app to test **frontend-backend integration**, **state 
 
 ## 🚀 How to Run Locally
 
-### 1. Start the Backend API
+### 1. Clone the repo
+https://github.com/afifpatel/simple-ecommerce-cart
+
+### 2. Checkout a feature branch
+feature/{your_name}
+
+### 3. Start the Backend API
 ```bash
 cd backend
 npm install
@@ -19,7 +25,11 @@ npm run dev
 ```
 Backend will run at http://localhost:3001
 
-### 2. Start the Frontend
+You can verify the backend is running by visiting:  
+`http://localhost:3001/health`  
+(You should see: `{ "message": "Server is running!" }`)
+
+### 4. Start the Frontend
 ```bash
 cd frontend
 npm install
@@ -28,6 +38,7 @@ npm run dev
 Frontend will run at http://localhost:3000
 
 ## 📦 Project Structure
+```
 simple-ecommerce-cart/
 ├── backend/
 │   ├── index.ts
@@ -47,6 +58,7 @@ simple-ecommerce-cart/
 │   └── tsconfig.json
 ├── README.md
 └── .gitignore
+```
 
 ## 🧹 Bonus Ideas (Optional)
 - Quantity adjustment
