@@ -12,7 +12,7 @@ Build a simple e-commerce app to test **frontend-backend integration**, **state 
 ## 🚀 How to Run Locally
 
 ### 1. Clone the repo
-https://github.com/afifpatel/simple-ecommerce-cart
+[https://github.com/afifpatel/simple-ecommerce-cart](https://github.com/DXT-Engineering/ecommerce-cart-test)
 
 ### 2. Checkout a feature branch
 feature/{your_name}
